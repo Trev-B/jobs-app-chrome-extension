@@ -1,0 +1,24 @@
+.current-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  padding: 0.3rem 0 0.3rem 0;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.logout {
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
